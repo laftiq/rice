@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+# Run from a terminal in the graphical session, after closing password prompts.
+mkdir -p "$HOME/.cache/rice"
+pkill -u "$(id -u)" -f '^(/usr/bin/)?lxqt-policykit-agent( |$)' || :
+nohup "$HOME/.local/bin/lxqt-policykit-agent" >> "$HOME/.cache/rice/policykit.log" 2>&1 < /dev/null &

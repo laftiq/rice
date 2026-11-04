@@ -1,0 +1,95 @@
+[global]
+    monitor = 0
+    follow = none
+    width = 340
+    height = (0, 130)
+    origin = top-right
+    offset = (8, 38)
+    notification_limit = 3
+    indicate_hidden = false
+    padding = 10
+    horizontal_padding = 12
+    frame_width = 0
+    frame_color = "#454545"
+    separator_height = 0
+    gap_size = 6
+    corner_radius = 0
+    font = DejaVu Sans Mono 10
+    markup = no
+    format = "%s\n%b"
+    alignment = left
+    vertical_alignment = center
+    word_wrap = true
+    ellipsize = end
+    icon_position = off
+    progress_bar = false
+    show_age_threshold = -1
+    stack_duplicates = true
+    hide_duplicate_count = true
+    show_indicators = false
+    history_length = 100
+    idle_threshold = 0
+    mouse_left_click = do_action, close_current
+    mouse_middle_click = close_all
+    mouse_right_click = close_current
+    enable_posix_regex = true
+
+[urgency_low]
+    background = "#242424"
+    foreground = "#858585"
+    timeout = 5
+
+[urgency_normal]
+    background = "#242424"
+    foreground = "#D0D0D0"
+    timeout = 7
+
+[urgency_critical]
+    background = "#302727"
+    foreground = "#E0B0B0"
+    timeout = 0
+
+# Deny by default, including history. Later allow rules override this.
+[quiet_by_default]
+    skip_display = true
+    history_ignore = true
+
+[telegram_name]
+    appname = "[Tt]elegram"
+    skip_display = false
+    history_ignore = false
+    override_dbus_timeout = 7s
+
+[telegram_desktop]
+    desktop_entry = "([Tt]elegram|org\\.telegram\\.desktop)"
+    skip_display = false
+    history_ignore = false
+    override_dbus_timeout = 7s
+
+[critical_system]
+    appname = "([Nn]etwork[Mm]anager|nm-applet|nm-tray|[Pp]ower[Dd]evil|[Pp]ower [Mm]anagement|[Pp]ower [Mm]anager|[Uu][Pp]ower|[Uu][Dd]isks|[Ss]ystemd|[Pp]olkit|[Pp]olicy[Kk]it|lxqt-powermanagement|xfce4-power-manager|[Hh]app)"
+    msg_urgency = critical
+    skip_display = false
+    history_ignore = false
+    override_dbus_timeout = 0
+
+[battery_warning]
+    appname = "([Pp]ower|[Bb]attery|[Uu][Pp]ower|lxqt-powermanagement|xfce4-power-manager|[Пп]итан|[Бб]атар)"
+    summary = "([Ll]ow|[Cc]ritical|[Ee]mpty|[Нн]изк|[Кк]ритич|[Рр]азряж)"
+    skip_display = false
+    history_ignore = false
+    override_dbus_timeout = 15s
+
+[connection_failure]
+    appname = "([Nn]etwork[Mm]anager|nm-applet|nm-tray|[Hh]app)"
+    summary = "([Dd]isconnect|[Ff]ail|[Ee]rror|[Ll]ost|[Оо]тключ|[Рр]азрыв|[Оо]шиб|[Пп]отер)"
+    skip_display = false
+    history_ignore = false
+    override_dbus_timeout = 10s
+
+# Only the explicit local diagnostic, not arbitrary notify-send messages.
+[rice_test]
+    appname = "^rice-test$"
+    skip_display = false
+    history_ignore = true
+    override_dbus_timeout = 7s

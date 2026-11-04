@@ -1,0 +1,47 @@
+configuration {
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+@theme "~/.config/rofi/theme.rasi"
+window { width: 460px; padding: 10px; border: 0px; }
+mainbox {
+    children: [mode-switcher, inputbar, message, listview];
+    spacing: 6px;
+}
+mode-switcher {
+    orientation: horizontal;
+    spacing: 4px;
+    expand: false;
+    cursor: default;
+}
+button {
+    horizontal-align: 0.5;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #343434;
+}
+button selected {
+    background-color: #454545;
+    text-color: #FFFFFF;
+}
+inputbar { padding: 7px; }
+prompt { enabled: false; }
+entry { placeholder: "Найти в истории…"; cursor: text; }
+message { expand: false; }
+listview { lines: 8; spacing: 0px; fixed-height: false; }
+element { padding: 7px; cursor: pointer; }
+element-text { cursor: pointer; }
+element-icon { enabled: true; size: 38px; cursor: pointer; }
+* { cursor: default; }
+window { cursor: default; }
+mainbox { cursor: default; }
+listview { cursor: default; }
+
+/* Preserve the clipboard's original highlight despite the shared menu theme. */
+element normal.normal, element normal.active, element normal.urgent,
+element selected.normal, element selected.active, element selected.urgent {
+    border: 0px;
+}
+element selected.normal, element selected.active, element selected.urgent {
+    background-color: #454545;
+}

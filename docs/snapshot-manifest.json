@@ -1,0 +1,1069 @@
+{
+  "captured": "2026-11-04",
+  "files": [
+    {
+      "path": ".config/openbox/autostart",
+      "source_sha256": "583a2100a86c19e4451745285b7527509c1beaba9613944020957f2de5d3ad3f",
+      "template_sha256": "583a2100a86c19e4451745285b7527509c1beaba9613944020957f2de5d3ad3f",
+      "bytes": 2120,
+      "executable": false
+    },
+    {
+      "path": ".config/openbox/environment",
+      "source_sha256": "3faa0a703539b7be6d8ab12ad8ae09e760202cb9fd9315d355a88602bd6ccabc",
+      "template_sha256": "3faa0a703539b7be6d8ab12ad8ae09e760202cb9fd9315d355a88602bd6ccabc",
+      "bytes": 381,
+      "executable": false
+    },
+    {
+      "path": ".config/openbox/menu.xml",
+      "source_sha256": "880b01bdc76c59d9936009c5d31f2dd121c3fbd7465bf23950bbd7e2054e254e",
+      "template_sha256": "824526ec9116c06898ad21fc633be6dfad7ebe22bc8122e046b4ee4d96fce7a6",
+      "bytes": 797,
+      "executable": false
+    },
+    {
+      "path": ".config/openbox/rc.xml",
+      "source_sha256": "ce65de34091a5ae0ccca9f3b2e5966862335e60f36b693612319dc83a968c9ae",
+      "template_sha256": "9c96c0bcf5517c4db07d3f6dd0d31bfa8a2b6a4a6cbd7ad2352665b3ca3869ef",
+      "bytes": 17674,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/assets/build-network-font.py",
+      "source_sha256": "96d03d605a27b391c9e9c2999b238fd5332a38e569bc36fba05e034841148a3d",
+      "template_sha256": "96d03d605a27b391c9e9c2999b238fd5332a38e569bc36fba05e034841148a3d",
+      "bytes": 6045,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/assets/logo.svg",
+      "source_sha256": "0955112550209d32ffd7d8e017b6c1ebb3bcaffb620be798b791a744b4638980",
+      "template_sha256": "0955112550209d32ffd7d8e017b6c1ebb3bcaffb620be798b791a744b4638980",
+      "bytes": 306,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/config.ini",
+      "source_sha256": "56b8e554fc0313b1c603bc2ba1a892e2d740e94ccf1661938602f58be40a7b94",
+      "template_sha256": "6673c6a0d5d085b6eec701558ae11875cd8ed93b0a708625a6ca8089469cdc0e",
+      "bytes": 7431,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/restart.sh",
+      "source_sha256": "0f67716ca34c0d6ba2f85595f5db0773e36ef97ba66606fdbb9bf92c5d118185",
+      "template_sha256": "0f67716ca34c0d6ba2f85595f5db0773e36ef97ba66606fdbb9bf92c5d118185",
+      "bytes": 441,
+      "executable": true
+    },
+    {
+      "path": ".config/polybar/scripts/audio-output.py",
+      "source_sha256": "410e55ae1b88290e9a0f7ffa8dd85bd30d691366b64121d71dc21387a807165b",
+      "template_sha256": "410e55ae1b88290e9a0f7ffa8dd85bd30d691366b64121d71dc21387a807165b",
+      "bytes": 2849,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/audio-volume.py",
+      "source_sha256": "7650efb8bc5302354c5f56393f7e98020b621c59ddd95c88899036f510fd8c0d",
+      "template_sha256": "7650efb8bc5302354c5f56393f7e98020b621c59ddd95c88899036f510fd8c0d",
+      "bytes": 1422,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/calendar-menu.py",
+      "source_sha256": "c104bd95d7a4e1d031aba9262a0dc7cc9cd485b64432555fc0ded5b83e4af2a8",
+      "template_sha256": "c104bd95d7a4e1d031aba9262a0dc7cc9cd485b64432555fc0ded5b83e4af2a8",
+      "bytes": 2598,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/clipboard.py",
+      "source_sha256": "34cc995083b6e3e9c415ac76074c032505e9c7b1c2814694458c2714f8628332",
+      "template_sha256": "34cc995083b6e3e9c415ac76074c032505e9c7b1c2814694458c2714f8628332",
+      "bytes": 27853,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/clock.py",
+      "source_sha256": "a34f9132c29b0b2e7bb4ccdbd282bf24e4c8a31d2ce3c1c3cb69ea7b005a3bf8",
+      "template_sha256": "a34f9132c29b0b2e7bb4ccdbd282bf24e4c8a31d2ce3c1c3cb69ea7b005a3bf8",
+      "bytes": 410,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/devices-menu.py",
+      "source_sha256": "bfc8dd79e0fe6544ac61e32a0ad90678b8c9ac62249cc836ff54a3b0897dd05f",
+      "template_sha256": "bfc8dd79e0fe6544ac61e32a0ad90678b8c9ac62249cc836ff54a3b0897dd05f",
+      "bytes": 6724,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/disks-menu.py",
+      "source_sha256": "400f162ef2d29c4e24357b64c28f7a1f321a4d94fe63825b9b3f6e10bbf59b95",
+      "template_sha256": "400f162ef2d29c4e24357b64c28f7a1f321a4d94fe63825b9b3f6e10bbf59b95",
+      "bytes": 2966,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/file-search.py",
+      "source_sha256": "6e9058b54cfb8b4ccb2ed7c0870540c4740c75692da97d42f5742ed305b0bf7f",
+      "template_sha256": "6e9058b54cfb8b4ccb2ed7c0870540c4740c75692da97d42f5742ed305b0bf7f",
+      "bytes": 10109,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/happ-menu.py",
+      "source_sha256": "ca6af8933c05624f04e0b707d7390f3d630dd5723dbc84a034385d122c6e93cf",
+      "template_sha256": "ca6af8933c05624f04e0b707d7390f3d630dd5723dbc84a034385d122c6e93cf",
+      "bytes": 7967,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/happ-tray-bridge.py",
+      "source_sha256": "d7d1418cfe7812fc64c97da5df608edfcdf34f0e4408d55b1d8d4da3e2b9c20b",
+      "template_sha256": "d7d1418cfe7812fc64c97da5df608edfcdf34f0e4408d55b1d8d4da3e2b9c20b",
+      "bytes": 3874,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/happ-vpn.py",
+      "source_sha256": "f7214417b2ea76ea9812d6211111b3f54f73bbfa1a914fc25ecb427a71417ff0",
+      "template_sha256": "f7214417b2ea76ea9812d6211111b3f54f73bbfa1a914fc25ecb427a71417ff0",
+      "bytes": 2655,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/internet-menu.py",
+      "source_sha256": "c44e8bfdc014abc80d29daab4a685542f4160b3841a0d39973665aedb5260155",
+      "template_sha256": "c44e8bfdc014abc80d29daab4a685542f4160b3841a0d39973665aedb5260155",
+      "bytes": 10090,
+      "executable": true
+    },
+    {
+      "path": ".config/polybar/scripts/internet.py",
+      "source_sha256": "423e4e3d8a9b5f8af425d17a3f8c03ea36f57db7cef4d657325f2e7c2dd64db8",
+      "template_sha256": "423e4e3d8a9b5f8af425d17a3f8c03ea36f57db7cef4d657325f2e7c2dd64db8",
+      "bytes": 9221,
+      "executable": true
+    },
+    {
+      "path": ".config/polybar/scripts/memory-menu.py",
+      "source_sha256": "c8d9b0c046d1bc15b1b1ef6082da5558729dfc6fe4fbb7aa01161bb275de24a7",
+      "template_sha256": "c8d9b0c046d1bc15b1b1ef6082da5558729dfc6fe4fbb7aa01161bb275de24a7",
+      "bytes": 2675,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/microphone.py",
+      "source_sha256": "a779d8692a82b9c68a6cdefba4363e101287c145ad5e9bea0b07d038b2442544",
+      "template_sha256": "f9eeb56b63c78777b11730ae0f580f72dde2e5c2a7b2da832f67a4b6286e6604",
+      "bytes": 5779,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/music-panel.py",
+      "source_sha256": "6d4f01cf494deb1a20d35868430ff1ada5aaa6a4c755f45248b7618650e2e50e",
+      "template_sha256": "6d4f01cf494deb1a20d35868430ff1ada5aaa6a4c755f45248b7618650e2e50e",
+      "bytes": 2962,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/music-widget.py",
+      "source_sha256": "7bb7969cc4819c4cc215b65934963daffe482ca5ddd8f54351a3ad25898c9046",
+      "template_sha256": "7bb7969cc4819c4cc215b65934963daffe482ca5ddd8f54351a3ad25898c9046",
+      "bytes": 22982,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/music.py",
+      "source_sha256": "50023d81a264c58a1983bbb068ada4807ac65d1b45daab01718e09c11a71fc45",
+      "template_sha256": "153755bf8763c54d2f9a543578aff7b2de109be107fea21af43138856a5d0dc3",
+      "bytes": 3621,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/network-diagnostic.py",
+      "source_sha256": "0c3516812b60605fea2a629e9d0cfa4b405f61d73ae690a477f611d43152890c",
+      "template_sha256": "0c3516812b60605fea2a629e9d0cfa4b405f61d73ae690a477f611d43152890c",
+      "bytes": 1926,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/network-direct-speed.py",
+      "source_sha256": "d221450080064eeef6d99da1d249598558ddb2145d8f593d23ecef33fec46b30",
+      "template_sha256": "d221450080064eeef6d99da1d249598558ddb2145d8f593d23ecef33fec46b30",
+      "bytes": 1306,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/notification-history.py",
+      "source_sha256": "7f606b2fa365d0f2de46d8eb4817eff716bf4ac6dc3d94a9ee9d9be7aff3c63b",
+      "template_sha256": "7f606b2fa365d0f2de46d8eb4817eff716bf4ac6dc3d94a9ee9d9be7aff3c63b",
+      "bytes": 3156,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/notification_data.py",
+      "source_sha256": "33bace198b70910cfde3ec6562c65ffeaef463fb0d5e712552da9912db4b43c5",
+      "template_sha256": "33bace198b70910cfde3ec6562c65ffeaef463fb0d5e712552da9912db4b43c5",
+      "bytes": 1806,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/notifications.py",
+      "source_sha256": "ac07df6f9cb3d15fc508ca88c931a422f9421a08197c1bdca918f83619b6ef24",
+      "template_sha256": "ac07df6f9cb3d15fc508ca88c931a422f9421a08197c1bdca918f83619b6ef24",
+      "bytes": 2523,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/panel-repair.py",
+      "source_sha256": "37c0e4bb4eb85c0dcfdc2e7b4457f65ca5f4947a09bfa27479c035ea3d701005",
+      "template_sha256": "37c0e4bb4eb85c0dcfdc2e7b4457f65ca5f4947a09bfa27479c035ea3d701005",
+      "bytes": 1283,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/popup_position.py",
+      "source_sha256": "884518bab363b5988925ef2871b934d596667f68fd636a63cee5727220a1a5c4",
+      "template_sha256": "884518bab363b5988925ef2871b934d596667f68fd636a63cee5727220a1a5c4",
+      "bytes": 1383,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/power-menu.py",
+      "source_sha256": "7be26676df8bdef2819c4cc964fca0ead5ba6a1632b2ffe7172bc61f1a0f521e",
+      "template_sha256": "7be26676df8bdef2819c4cc964fca0ead5ba6a1632b2ffe7172bc61f1a0f521e",
+      "bytes": 311,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/startup-audit.py",
+      "source_sha256": "b6559047714994f6a926a4ebe8dac7f6e9e40f4e815ccad695a7b10c45e6c557",
+      "template_sha256": "b6559047714994f6a926a4ebe8dac7f6e9e40f4e815ccad695a7b10c45e6c557",
+      "bytes": 7176,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/scripts/window-switcher.py",
+      "source_sha256": "84ecd00ceb164dbe8088c47bec22792b16e3fbb7b4f33e128439b404895d3f55",
+      "template_sha256": "84ecd00ceb164dbe8088c47bec22792b16e3fbb7b4f33e128439b404895d3f55",
+      "bytes": 12333,
+      "executable": false
+    },
+    {
+      "path": ".config/polybar/start-clipboard.sh",
+      "source_sha256": "f2402c567d78c40d026293617b1c26f4fe574e4ba43f22317f3956d016caf913",
+      "template_sha256": "f2402c567d78c40d026293617b1c26f4fe574e4ba43f22317f3956d016caf913",
+      "bytes": 348,
+      "executable": true
+    },
+    {
+      "path": ".config/rofi/audio.rasi",
+      "source_sha256": "8d1c268e05d997a77f0949e2fdb5280ff866d6f7ea2992650e22a18455ce2b19",
+      "template_sha256": "8d1c268e05d997a77f0949e2fdb5280ff866d6f7ea2992650e22a18455ce2b19",
+      "bytes": 1842,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/calendar.rasi",
+      "source_sha256": "13c0a40e27b6b6917cf3121a92e3e12f5479854be0724e1cbfec699697c5c1ff",
+      "template_sha256": "13c0a40e27b6b6917cf3121a92e3e12f5479854be0724e1cbfec699697c5c1ff",
+      "bytes": 1776,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/clipboard.rasi",
+      "source_sha256": "a439b8504239d231723ebd1f7b0b6afc4bfc71d373809fce40d7253608c4ad24",
+      "template_sha256": "a439b8504239d231723ebd1f7b0b6afc4bfc71d373809fce40d7253608c4ad24",
+      "bytes": 1361,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/config.rasi",
+      "source_sha256": "e75eb8d6b2a59166c5f76245a6f7a24964f612f5c811d6ee349d66d3a0d02792",
+      "template_sha256": "e75eb8d6b2a59166c5f76245a6f7a24964f612f5c811d6ee349d66d3a0d02792",
+      "bytes": 156,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/devices.rasi",
+      "source_sha256": "813356eed275a0801f0b0c629b74ccd11d14eba4ac7bdc0429fbdd25ea1cb210",
+      "template_sha256": "813356eed275a0801f0b0c629b74ccd11d14eba4ac7bdc0429fbdd25ea1cb210",
+      "bytes": 1498,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/disks.rasi",
+      "source_sha256": "b02f0c2735b906e861175de2841678693c6fe085a41b6f4a9f861c7ebd09d64a",
+      "template_sha256": "b02f0c2735b906e861175de2841678693c6fe085a41b6f4a9f861c7ebd09d64a",
+      "bytes": 1348,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/memory.rasi",
+      "source_sha256": "a5ce5447e46d3f52fcaa5dbe9a51b523116f886e9dfa7332e0aaf5afc83f18bc",
+      "template_sha256": "a5ce5447e46d3f52fcaa5dbe9a51b523116f886e9dfa7332e0aaf5afc83f18bc",
+      "bytes": 2850,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/notifications.rasi",
+      "source_sha256": "4893a7c5668161404014a33e9a9e2b39211b82a52fde1381e47b9c1985a2e7ae",
+      "template_sha256": "4893a7c5668161404014a33e9a9e2b39211b82a52fde1381e47b9c1985a2e7ae",
+      "bytes": 2595,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/power.rasi",
+      "source_sha256": "f3f55edbd8e0e031fba1c8a5f2e2a2f93914b25009d34f58ba1d5e307c32e45b",
+      "template_sha256": "f3f55edbd8e0e031fba1c8a5f2e2a2f93914b25009d34f58ba1d5e307c32e45b",
+      "bytes": 1842,
+      "executable": false
+    },
+    {
+      "path": ".config/rofi/powermenu.sh",
+      "source_sha256": "ab7e44d8c92ac903e7e4e739665553838e1e2d7a9f2ec4c11aabfdee865ac9bd",
+      "template_sha256": "ab7e44d8c92ac903e7e4e739665553838e1e2d7a9f2ec4c11aabfdee865ac9bd",
+      "bytes": 323,
+      "executable": true
+    },
+    {
+      "path": ".config/rofi/theme.rasi",
+      "source_sha256": "f011b080573a899907db15baf6af2f31c88479de53a08ebffa3f5ab128cbb70b",
+      "template_sha256": "f011b080573a899907db15baf6af2f31c88479de53a08ebffa3f5ab128cbb70b",
+      "bytes": 1898,
+      "executable": false
+    },
+    {
+      "path": ".config/dunst/dunstrc",
+      "source_sha256": "1db2a2b11ba90c56158c3e73e664d153c25d5b0b2c16e5f12220fc050d34a00f",
+      "template_sha256": "1db2a2b11ba90c56158c3e73e664d153c25d5b0b2c16e5f12220fc050d34a00f",
+      "bytes": 2722,
+      "executable": false
+    },
+    {
+      "path": ".config/dunst/setup.sh",
+      "source_sha256": "8f7e2adf964be34104c18da8dc1beabc3accfc219bfca7b8c3a41e8a7598d776",
+      "template_sha256": "8f7e2adf964be34104c18da8dc1beabc3accfc219bfca7b8c3a41e8a7598d776",
+      "bytes": 233,
+      "executable": true
+    },
+    {
+      "path": ".config/dunst/start.sh",
+      "source_sha256": "946dd4b16db2478393149e7273fb395935076569f04b423799398c611b4b3539",
+      "template_sha256": "946dd4b16db2478393149e7273fb395935076569f04b423799398c611b4b3539",
+      "bytes": 1139,
+      "executable": true
+    },
+    {
+      "path": ".config/kitty/kitty.conf",
+      "source_sha256": "03f26ef6678035fbe9b54763f6e562f282265d6802c44573d9a609ad774d510d",
+      "template_sha256": "03f26ef6678035fbe9b54763f6e562f282265d6802c44573d9a609ad774d510d",
+      "bytes": 2063,
+      "executable": false
+    },
+    {
+      "path": ".config/btop/btop.conf",
+      "source_sha256": "b7dd05cc3c71b57ce8fa8d3e65abe2249aabf49ddc21f7e901159d93422c1f0b",
+      "template_sha256": "7d914817fd4a52d85ddfd5d62e32e4602a8aa846d00343b6ef314108e6cd98e4",
+      "bytes": 9392,
+      "executable": false
+    },
+    {
+      "path": ".config/btop/themes/graphite-pastel.theme",
+      "source_sha256": "e176df07c8fa1e219de2ca1d81f8adae3535fad8b434b7257d362f76aebae28f",
+      "template_sha256": "e176df07c8fa1e219de2ca1d81f8adae3535fad8b434b7257d362f76aebae28f",
+      "bytes": 1289,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/config",
+      "source_sha256": "3e3a429f14f616d71c41f8d4577b272a5cde90e5026e340e6bc504ca3439e6de",
+      "template_sha256": "3e3a429f14f616d71c41f8d4577b272a5cde90e5026e340e6bc504ca3439e6de",
+      "bytes": 10083,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/shaders/bar_spectrum.frag",
+      "source_sha256": "b16b6ed0711752f5f7815b2981d1384f6235c53af5374489aaa3577540685d96",
+      "template_sha256": "b16b6ed0711752f5f7815b2981d1384f6235c53af5374489aaa3577540685d96",
+      "bytes": 2358,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/shaders/northern_lights.frag",
+      "source_sha256": "6f1db345afb41b08d1dc91e2b5624bdf2779c35a12efac5e2ab7c0b324360971",
+      "template_sha256": "6f1db345afb41b08d1dc91e2b5624bdf2779c35a12efac5e2ab7c0b324360971",
+      "bytes": 1009,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/shaders/pass_through.vert",
+      "source_sha256": "d9e701d971a32a1c8a459c0f08e2e0c7fbedb3eccd9bfe428bd7e60160cf1c77",
+      "template_sha256": "d9e701d971a32a1c8a459c0f08e2e0c7fbedb3eccd9bfe428bd7e60160cf1c77",
+      "bytes": 350,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/shaders/spectrogram.frag",
+      "source_sha256": "4aff0ef91fc89e64a56180c8e1ee550d6172bf24f616840117360b70bd6b3af6",
+      "template_sha256": "4aff0ef91fc89e64a56180c8e1ee550d6172bf24f616840117360b70bd6b3af6",
+      "bytes": 1611,
+      "executable": false
+    },
+    {
+      "path": ".config/cava/shaders/winamp_line_style_spectrum.frag",
+      "source_sha256": "dd8d21afddf74c253aff3c62812a0acfd80d491fa75b6424debff8ad4855bba3",
+      "template_sha256": "dd8d21afddf74c253aff3c62812a0acfd80d491fa75b6424debff8ad4855bba3",
+      "bytes": 2877,
+      "executable": false
+    },
+    {
+      "path": ".config/fastfetch/cat-headphones-transparent.png",
+      "source_sha256": "24725732bca91452ba12e1f62f63235e3f4af7d9d1bc2008e3ed6d02eb1ae2f6",
+      "template_sha256": "24725732bca91452ba12e1f62f63235e3f4af7d9d1bc2008e3ed6d02eb1ae2f6",
+      "bytes": 656493,
+      "executable": false
+    },
+    {
+      "path": ".config/fastfetch/cat-headphones.png",
+      "source_sha256": "da0aaace9fc7efb751860c90bc92c765574b86324e983838263215aca49a85cd",
+      "template_sha256": "da0aaace9fc7efb751860c90bc92c765574b86324e983838263215aca49a85cd",
+      "bytes": 197852,
+      "executable": false
+    },
+    {
+      "path": ".config/fastfetch/config.jsonc",
+      "source_sha256": "c9170e01c98043e746506e5bafbfd78038efa8b1647179db72ac8e7cbfb7375c",
+      "template_sha256": "5e4e2bd3f85cd6dfc82ce54e7d095a3d24127c890f562437fee6a201707a9c00",
+      "bytes": 1449,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/app-layouts.json",
+      "source_sha256": "a05383c0253318dda34b566ae6699aa7a51baf4c84cf93100681b16dbd57e831",
+      "template_sha256": "a05383c0253318dda34b566ae6699aa7a51baf4c84cf93100681b16dbd57e831",
+      "bytes": 180,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/app-layouts.py",
+      "source_sha256": "d5c90520574d51efe976d3ff6fad10b1fb103d13c06f4a4119336350d63168f9",
+      "template_sha256": "d5c90520574d51efe976d3ff6fad10b1fb103d13c06f4a4119336350d63168f9",
+      "bytes": 6387,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/apply-display.py",
+      "source_sha256": "3479358848a9e5eeb50c5b88abb430a0d74e77d57ff9cd4acde23a198b3db51c",
+      "template_sha256": "3479358848a9e5eeb50c5b88abb430a0d74e77d57ff9cd4acde23a198b3db51c",
+      "bytes": 1329,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/ayugram/background.png",
+      "source_sha256": "95ad7340373997cb3a99a8f4e8684e19b8435dff43fa02de643aaa6210fb4d5f",
+      "template_sha256": "95ad7340373997cb3a99a8f4e8684e19b8435dff43fa02de643aaa6210fb4d5f",
+      "bytes": 175,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/ayugram/colors-before-contrast.tdesktop-theme",
+      "source_sha256": "3f1fefb5e021892b4595d858deaedb9ed64ad592b87810999622188182ecfd20",
+      "template_sha256": "3f1fefb5e021892b4595d858deaedb9ed64ad592b87810999622188182ecfd20",
+      "bytes": 41174,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/ayugram/colors.tdesktop-theme",
+      "source_sha256": "2cac03c1c2dea15a9673946bf70f728ec2c685f0dcef5bf097327df5e28c81b9",
+      "template_sha256": "2cac03c1c2dea15a9673946bf70f728ec2c685f0dcef5bf097327df5e28c81b9",
+      "bytes": 41174,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/display.json",
+      "source_sha256": "7646896baa1f76afdc5457a31bd5912bd15964e0f747d9f6caed6a236cca19f0",
+      "template_sha256": "7646896baa1f76afdc5457a31bd5912bd15964e0f747d9f6caed6a236cca19f0",
+      "bytes": 53,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/filemanager.qss",
+      "source_sha256": "c5dd05f4eb0547274167a0bcfaacf73ff9aaa108d4eac0fc873e0cac75ce97c4",
+      "template_sha256": "c5dd05f4eb0547274167a0bcfaacf73ff9aaa108d4eac0fc873e0cac75ce97c4",
+      "bytes": 2336,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/firefox/apply.py",
+      "source_sha256": "6c92d20049469c6832b8f1b02b167a5c36710ba5eee30a2c17f9ec48a25da57f",
+      "template_sha256": "6c92d20049469c6832b8f1b02b167a5c36710ba5eee30a2c17f9ec48a25da57f",
+      "bytes": 2378,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/firefox/userChrome.css",
+      "source_sha256": "f078ec8ee2691397087758ac44d2f0fad36ebba54ed325b54dcd815f063853d2",
+      "template_sha256": "f078ec8ee2691397087758ac44d2f0fad36ebba54ed325b54dcd815f063853d2",
+      "bytes": 2332,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/firefox/userContent.css",
+      "source_sha256": "6ec3dd2482031a3c5fe3f791bc2f38c7dc1fcedd583ec3fdb7485a26854589cd",
+      "template_sha256": "6ec3dd2482031a3c5fe3f791bc2f38c7dc1fcedd583ec3fdb7485a26854589cd",
+      "bytes": 964,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/lock-screen/fetch-logo.py",
+      "source_sha256": "ae5b44c090e951f1ec3b930b9b35f6469f8284bb253f9a30950519ab472881cc",
+      "template_sha256": "ae5b44c090e951f1ec3b930b9b35f6469f8284bb253f9a30950519ab472881cc",
+      "bytes": 2433,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/lock-screen/lock.sh",
+      "source_sha256": "0b2e41c90b41f2bf715235e4bc9ed0e7837e33c90f08a51c09f7cb073468e23e",
+      "template_sha256": "0b2e41c90b41f2bf715235e4bc9ed0e7837e33c90f08a51c09f7cb073468e23e",
+      "bytes": 291,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/lock-screen/logo.png",
+      "source_sha256": "0a94ad22e11a6f925013cc009853cf7dd2c9dfb38b0bc0085da821d831e66a9c",
+      "template_sha256": "0a94ad22e11a6f925013cc009853cf7dd2c9dfb38b0bc0085da821d831e66a9c",
+      "bytes": 50899,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/lock-screen/render.py",
+      "source_sha256": "4a0b202bd7a993c371eefe73d1396223b4dae400a278832f120f25b201973bdf",
+      "template_sha256": "4a0b202bd7a993c371eefe73d1396223b4dae400a278832f120f25b201973bdf",
+      "bytes": 2301,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/lock-screen/setup.sh",
+      "source_sha256": "b460b4dc9123484d974f3b387601e7b660094208338e7c9e816c4e4664210f22",
+      "template_sha256": "b460b4dc9123484d974f3b387601e7b660094208338e7c9e816c4e4664210f22",
+      "bytes": 543,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/lock-screen/start.sh",
+      "source_sha256": "fee1978b0c5dc3141aaac5756df988a4ede1b76f3ca2723a8576fbb3e0911c87",
+      "template_sha256": "fee1978b0c5dc3141aaac5756df988a4ede1b76f3ca2723a8576fbb3e0911c87",
+      "bytes": 432,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/lock.Xresources",
+      "source_sha256": "4e73958b9dcf145d475cdcc41bf5b51988e2088650da43d0b14d48e30e43fb28",
+      "template_sha256": "4e73958b9dcf145d475cdcc41bf5b51988e2088650da43d0b14d48e30e43fb28",
+      "bytes": 1354,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/lock.sh",
+      "source_sha256": "3e24f44c2f3accf3a761882a4195e95f1f635fc0727df11a93ab6f987a9ac1ea",
+      "template_sha256": "3e24f44c2f3accf3a761882a4195e95f1f635fc0727df11a93ab6f987a9ac1ea",
+      "bytes": 64,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/policykit-arrow.svg",
+      "source_sha256": "dd4343ec06ad71eb05e7757a381fd4fd095ed6e96432a41aa62e58e645fb048a",
+      "template_sha256": "dd4343ec06ad71eb05e7757a381fd4fd095ed6e96432a41aa62e58e645fb048a",
+      "bytes": 160,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/policykit.qss",
+      "source_sha256": "23cbb2eee9acfa93c48783fc0857f9060c1d0984cdb7baaf42425f64c90e8b22",
+      "template_sha256": "365987d05f7cbc345e3087e6b2c60168db9998c0dfabaf6ab0d0f77404d03ba6",
+      "bytes": 1815,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/screenshot.py",
+      "source_sha256": "d7d59219904a95441b4b1cae28fd6c5aa24a5b6be0e245e51db7d264d8e08543",
+      "template_sha256": "d7d59219904a95441b4b1cae28fd6c5aa24a5b6be0e245e51db7d264d8e08543",
+      "bytes": 27236,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/start-layouts.sh",
+      "source_sha256": "a06a37b4104d143e29986865cdf671f38608e6fd31d2cbc13fb52e659b40d7ab",
+      "template_sha256": "a06a37b4104d143e29986865cdf671f38608e6fd31d2cbc13fb52e659b40d7ab",
+      "bytes": 164,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/start-locker.sh",
+      "source_sha256": "58a7c81c51396b8aa4e07862e71e1907f6d062535e764e85da9c975968103a31",
+      "template_sha256": "58a7c81c51396b8aa4e07862e71e1907f6d062535e764e85da9c975968103a31",
+      "bytes": 65,
+      "executable": true
+    },
+    {
+      "path": ".config/rice/telegram/graphite-chat-list/colors.tdesktop-theme",
+      "source_sha256": "ec137884caccc1849528600bdeb18c49efb0fb1e665ed3df77bf95ce6d468acd",
+      "template_sha256": "ec137884caccc1849528600bdeb18c49efb0fb1e665ed3df77bf95ce6d468acd",
+      "bytes": 41119,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-chat-list-plus/colors.tdesktop-theme",
+      "source_sha256": "1f4b20d7157351ccc54be2bf2cb0d80053174c12552a971e4dfee552e78aeb67",
+      "template_sha256": "1f4b20d7157351ccc54be2bf2cb0d80053174c12552a971e4dfee552e78aeb67",
+      "bytes": 41119,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-high-contrast/background.png",
+      "source_sha256": "6534fd8ad21d425e37c8d5a6ea241e4d70ba69f823c19ae53a2e3f3eab62b74b",
+      "template_sha256": "6534fd8ad21d425e37c8d5a6ea241e4d70ba69f823c19ae53a2e3f3eab62b74b",
+      "bytes": 175,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-high-contrast/colors.tdesktop-theme",
+      "source_sha256": "ddf61165f5bfc844353e6b150344f19960d665b3564daff112609f0880b05595",
+      "template_sha256": "ddf61165f5bfc844353e6b150344f19960d665b3564daff112609f0880b05595",
+      "bytes": 41174,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-menu-clear/colors.tdesktop-theme",
+      "source_sha256": "d50600e198388917f2b79d820d7aaa5cb21d6d0aad2ea6ea214b3e309130c38a",
+      "template_sha256": "d50600e198388917f2b79d820d7aaa5cb21d6d0aad2ea6ea214b3e309130c38a",
+      "bytes": 41159,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-menu-clear-badges/colors.tdesktop-theme",
+      "source_sha256": "df8f943b8e3cd1a55a1cf5a2f2dd6f3509fa63b30102dad220e171f1d46f413b",
+      "template_sha256": "df8f943b8e3cd1a55a1cf5a2f2dd6f3509fa63b30102dad220e171f1d46f413b",
+      "bytes": 41238,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-menu-clear-darker-list/colors.tdesktop-theme",
+      "source_sha256": "f492c7d01f5cdbd9361c0066044240e959afc9f31d58eff7002540d65b2aa7fa",
+      "template_sha256": "f492c7d01f5cdbd9361c0066044240e959afc9f31d58eff7002540d65b2aa7fa",
+      "bytes": 41159,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-menu-clear-soft-selection/colors.tdesktop-theme",
+      "source_sha256": "1f0c0522c82b2f30a66c835ad29c71b55c83fd878a292630027ffeb32fa2b495",
+      "template_sha256": "1f0c0522c82b2f30a66c835ad29c71b55c83fd878a292630027ffeb32fa2b495",
+      "bytes": 41159,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram/graphite-menu-contrast/colors.tdesktop-theme",
+      "source_sha256": "de455e5cbf28593fc745630afe520bf92eb0fd7201aef90e18abf54a51d13f51",
+      "template_sha256": "de455e5cbf28593fc745630afe520bf92eb0fd7201aef90e18abf54a51d13f51",
+      "bytes": 41159,
+      "executable": false
+    },
+    {
+      "path": ".config/rice/telegram-dialog.qss",
+      "source_sha256": "860a83b52a8f8c512bf04e1954dbc12af852eedefe960dadb28e4ef4d228643b",
+      "template_sha256": "860a83b52a8f8c512bf04e1954dbc12af852eedefe960dadb28e4ef4d228643b",
+      "bytes": 2432,
+      "executable": false
+    },
+    {
+      "path": ".config/ksnip/ksnip.conf",
+      "source_sha256": "5889fe8d9496b73b5d86c3a59aedfe5c8877c4bfba2777a7f0af837fee34214e",
+      "template_sha256": "532b87e02c8b54d4b46ff458dcddaba8bd58b812eae3e2640b60b5cf123cd6a3",
+      "bytes": 692,
+      "executable": false
+    },
+    {
+      "path": ".config/ksnip/rice.qss",
+      "source_sha256": "81dc3595d7db28b2d91fedad72d551e77e1e3f229b5ce4e5a446beae0d813e94",
+      "template_sha256": "81dc3595d7db28b2d91fedad72d551e77e1e3f229b5ce4e5a446beae0d813e94",
+      "bytes": 1437,
+      "executable": false
+    },
+    {
+      "path": ".config/pcmanfm-qt/rice/recent-files.conf",
+      "source_sha256": "e6ed27fc42a747ccd44d4d4b94c7e35d281da2eec54da3d1cbc057eb426bdea7",
+      "template_sha256": "e6ed27fc42a747ccd44d4d4b94c7e35d281da2eec54da3d1cbc057eb426bdea7",
+      "bytes": 26,
+      "executable": false
+    },
+    {
+      "path": ".config/pcmanfm-qt/rice/settings.conf",
+      "source_sha256": "c3ac8efbbae8418a73a9b4044e6d7872b9bdd0294e604ed3c642f567186cee5e",
+      "template_sha256": "c3ac8efbbae8418a73a9b4044e6d7872b9bdd0294e604ed3c642f567186cee5e",
+      "bytes": 2298,
+      "executable": false
+    },
+    {
+      "path": ".config/lxqt/lxqt.conf",
+      "source_sha256": "a64e795d837df0d9ae5ef8164813a410b8b0a4a439df3474cde8aeacd6df1560",
+      "template_sha256": "a64e795d837df0d9ae5ef8164813a410b8b0a4a439df3474cde8aeacd6df1560",
+      "bytes": 434,
+      "executable": false
+    },
+    {
+      "path": ".config/sxhkd/sxhkdrc",
+      "source_sha256": "44905c8bb46ab670652ed4a7718fbdadc559fd575d3fe41d6b31b92cbf5db2cc",
+      "template_sha256": "aa0a674d755a3eccc8ee151fedaa3960eb4964038d14c62aed880ac17acffa34",
+      "bytes": 624,
+      "executable": false
+    },
+    {
+      "path": ".config/mimeapps.list",
+      "source_sha256": "11dee0ff7cb7f1dd6ab7f171fa82b082fc642469e956dcedaad1b00b56e36682",
+      "template_sha256": "11dee0ff7cb7f1dd6ab7f171fa82b082fc642469e956dcedaad1b00b56e36682",
+      "bytes": 599,
+      "executable": false
+    },
+    {
+      "path": ".xinitrc",
+      "source_sha256": "7df300b2e1fcbfd8634b0c3677c13fb79499540a74725cdac5070e582985564a",
+      "template_sha256": "7df300b2e1fcbfd8634b0c3677c13fb79499540a74725cdac5070e582985564a",
+      "bytes": 48,
+      "executable": true
+    },
+    {
+      "path": ".xsession",
+      "source_sha256": "903f12e590536cfde16fa9f7a1392fef3555ebfefa207568a471d9d82dea93ee",
+      "template_sha256": "903f12e590536cfde16fa9f7a1392fef3555ebfefa207568a471d9d82dea93ee",
+      "bytes": 31,
+      "executable": true
+    },
+    {
+      "path": ".zshrc",
+      "source_sha256": "c1ae19fe2e4a6f420449e9d04145e1fc7c2d3cebe4daeec821ae874fc27675e3",
+      "template_sha256": "b933f8a1b42151c1da318dd90818893f89c9efff2b66d245ae5af4041fcb4980",
+      "bytes": 159,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Rice/gtk-3.0/gtk.css",
+      "source_sha256": "aaf9ea601705ccdea4590a9d2edbcef5fffc74c4a4015cd1764a1b0af60c703a",
+      "template_sha256": "aaf9ea601705ccdea4590a9d2edbcef5fffc74c4a4015cd1764a1b0af60c703a",
+      "bytes": 1507,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Rice/index.theme",
+      "source_sha256": "33908a6a4065a0a73e74a7fd8478653314b39566ab221289c8e702018c90c82e",
+      "template_sha256": "33908a6a4065a0a73e74a7fd8478653314b39566ab221289c8e702018c90c82e",
+      "bytes": 178,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/bullet.xbm",
+      "source_sha256": "c7155e3b399c73632bd58bc58860f614f24e24f04fd95d68966b92a3e0070ce1",
+      "template_sha256": "c7155e3b399c73632bd58bc58860f614f24e24f04fd95d68966b92a3e0070ce1",
+      "bytes": 216,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/close.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/desk.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/desk_toggled.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/iconify.xbm",
+      "source_sha256": "5f44042724ad9f41f164889da22360ac75a346dd149ab6b37ae09645dffd9624",
+      "template_sha256": "5f44042724ad9f41f164889da22360ac75a346dd149ab6b37ae09645dffd9624",
+      "bytes": 219,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/max.xbm",
+      "source_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "template_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "bytes": 207,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/max_disabled.xbm",
+      "source_sha256": "f59e47fee0f82385290dd854f91e781d7efe7f935d1896c225fbe9e5a15a8fd9",
+      "template_sha256": "f59e47fee0f82385290dd854f91e781d7efe7f935d1896c225fbe9e5a15a8fd9",
+      "bytes": 145,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/max_toggled.xbm",
+      "source_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "template_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "bytes": 207,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/shade.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/Laptos-Switcher/openbox-3/themerc",
+      "source_sha256": "855091621d6dbcccebbccf05fda65b25e34e232b4d8e4a465038174974545b18",
+      "template_sha256": "855091621d6dbcccebbccf05fda65b25e34e232b4d8e4a465038174974545b18",
+      "bytes": 8624,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/bullet.xbm",
+      "source_sha256": "c7155e3b399c73632bd58bc58860f614f24e24f04fd95d68966b92a3e0070ce1",
+      "template_sha256": "c7155e3b399c73632bd58bc58860f614f24e24f04fd95d68966b92a3e0070ce1",
+      "bytes": 216,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/close.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/desk.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/desk_toggled.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/iconify.xbm",
+      "source_sha256": "5f44042724ad9f41f164889da22360ac75a346dd149ab6b37ae09645dffd9624",
+      "template_sha256": "5f44042724ad9f41f164889da22360ac75a346dd149ab6b37ae09645dffd9624",
+      "bytes": 219,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/max.xbm",
+      "source_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "template_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "bytes": 207,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/max_disabled.xbm",
+      "source_sha256": "f59e47fee0f82385290dd854f91e781d7efe7f935d1896c225fbe9e5a15a8fd9",
+      "template_sha256": "f59e47fee0f82385290dd854f91e781d7efe7f935d1896c225fbe9e5a15a8fd9",
+      "bytes": 145,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/max_toggled.xbm",
+      "source_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "template_sha256": "f78f6afa772a9753d3ab0435c2d1bcf970fcdf991af2f07d7b63631e6cfdbf1d",
+      "bytes": 207,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/shade.xbm",
+      "source_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "template_sha256": "3ec695f8757b46398b7982fb80c0b8299f823dc2519fb63122928f8995c1ca5d",
+      "bytes": 213,
+      "executable": false
+    },
+    {
+      "path": ".local/share/themes/catppuccin-mocha/openbox-3/themerc",
+      "source_sha256": "b8d1b02492871066ab3c2ee223d866e4e3e5711fb025b2e2918f71cb8b2a2cc8",
+      "template_sha256": "b8d1b02492871066ab3c2ee223d866e4e3e5711fb025b2e2918f71cb8b2a2cc8",
+      "bytes": 8815,
+      "executable": false
+    },
+    {
+      "path": ".local/share/fonts/PanelNetworkIcons.ttf",
+      "source_sha256": "c17c3ff0d95c3d2d2644435402eb40d8c210ffa52dfa67ea29f1806a3544360d",
+      "template_sha256": "c17c3ff0d95c3d2d2644435402eb40d8c210ffa52dfa67ea29f1806a3544360d",
+      "bytes": 8268,
+      "executable": false
+    },
+    {
+      "path": ".local/bin/ksnip",
+      "source_sha256": "a090e0e33cbd941dae04f3ee3c69991f704b92af6076dd16ea41cb390fbf239d",
+      "template_sha256": "a090e0e33cbd941dae04f3ee3c69991f704b92af6076dd16ea41cb390fbf239d",
+      "bytes": 78,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/lxqt-policykit-agent",
+      "source_sha256": "7521a6454d42c435458caef08352fc81a62748fb335b0c990fc75667d5336eb5",
+      "template_sha256": "7521a6454d42c435458caef08352fc81a62748fb335b0c990fc75667d5336eb5",
+      "bytes": 206,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/mouse-no-accel",
+      "source_sha256": "bc68f4e9da9167be29402c4091028c3b83dba91ff65f6a754e1a2795734cb17a",
+      "template_sha256": "bc68f4e9da9167be29402c4091028c3b83dba91ff65f6a754e1a2795734cb17a",
+      "bytes": 3395,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/pcmanfm-qt",
+      "source_sha256": "394ef616387350dc04d993ed595db7ab774558931f076512b9695a48ee0ab3d7",
+      "template_sha256": "394ef616387350dc04d993ed595db7ab774558931f076512b9695a48ee0ab3d7",
+      "bytes": 151,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/restart-themed-policykit",
+      "source_sha256": "442c57c076cc3c9e35b07421c1a29c10a525ef70a70c2cffa8c30bd3e400f6cf",
+      "template_sha256": "442c57c076cc3c9e35b07421c1a29c10a525ef70a70c2cffa8c30bd3e400f6cf",
+      "bytes": 298,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/rice-check-startup",
+      "source_sha256": "7805251907281077706d1ac3d23082dc2efa964a7e4ba9fd2bd99ca99af9a915",
+      "template_sha256": "7805251907281077706d1ac3d23082dc2efa964a7e4ba9fd2bd99ca99af9a915",
+      "bytes": 86,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/rice-restore",
+      "source_sha256": "7812caf2dc9271debec69c173e1feabc753765f7f97707ba292cb2bab1f87175",
+      "template_sha256": "7812caf2dc9271debec69c173e1feabc753765f7f97707ba292cb2bab1f87175",
+      "bytes": 64,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/rice-screenshot",
+      "source_sha256": "ac162e46606f7ff591e870277bf67522ac37e6fa837730b9b2c12c87d1ccf43b",
+      "template_sha256": "ac162e46606f7ff591e870277bf67522ac37e6fa837730b9b2c12c87d1ccf43b",
+      "bytes": 144,
+      "executable": true
+    },
+    {
+      "path": ".local/bin/telegram-desktop",
+      "source_sha256": "45ffd8b8f31859c728ca2f011b2d6ffd895f9a394d944261aafc88ff1cc8b6dd",
+      "template_sha256": "45ffd8b8f31859c728ca2f011b2d6ffd895f9a394d944261aafc88ff1cc8b6dd",
+      "bytes": 214,
+      "executable": true
+    },
+    {
+      "path": ".local/share/applications/pcmanfm-qt.desktop",
+      "source_sha256": "f0e4799b92bf6de0faeef6ca6bb94820dcd6fa7a852b36ca5641b393f50b7500",
+      "template_sha256": "4e8382db68467b7ed18583e25b390118a1c1aed844c3d9b55238074ababf8c4c",
+      "bytes": 5707,
+      "executable": false
+    },
+    {
+      "path": ".local/share/applications/org.ksnip.ksnip.desktop",
+      "source_sha256": "2b50b9e53784c9110708695e8bcb919113c6ef1791ea2fa41f3401e9247b3e02",
+      "template_sha256": "ff7b0fbf15ccf16dab25b204e04711c5dac3d5f4e0976d3f564a6ae304b79283",
+      "bytes": 1560,
+      "executable": false
+    },
+    {
+      "path": ".local/share/applications/org.telegram.desktop.desktop",
+      "source_sha256": "77e46b02a34e276143ee3eb739c63163fd2f1be4fc5fbb739c24ce0f96f5baf0",
+      "template_sha256": "9531e9ecc1224541a7dfd90766874818d146d9fd5d11b1bdb67fbeba97ac511d",
+      "bytes": 613,
+      "executable": false
+    },
+    {
+      "path": ".local/share/applications/yandexmusic.desktop",
+      "source_sha256": "1f404938bd0e745e4d5a4f2d4eb1af2e4efe57a08aecd4c741ba7548019a2824",
+      "template_sha256": "9d88068d4312bd1c356a61f5df2a9b09689942674e0e02e3ad5f359544df9c15",
+      "bytes": 370,
+      "executable": true
+    },
+    {
+      "path": ".local/share/icons/happ.png",
+      "source_sha256": "b8d0241afbc97540ae06ec07a4b5dbe3a19cf71282395850eaf72a5c9526f999",
+      "template_sha256": "b8d0241afbc97540ae06ec07a4b5dbe3a19cf71282395850eaf72a5c9526f999",
+      "bytes": 15006,
+      "executable": false
+    },
+    {
+      "path": ".local/share/icons/ayugram.png",
+      "source_sha256": "5a562ba59f161ac0fca09661101077c574f10c2d9c3803c06a9abe9918df8d93",
+      "template_sha256": "5a562ba59f161ac0fca09661101077c574f10c2d9c3803c06a9abe9918df8d93",
+      "bytes": 2127,
+      "executable": false
+    },
+    {
+      "path": ".local/share/icons/yandexmusic.png",
+      "source_sha256": "f99e96f4b919af1f4a6c91dba40b3371bc287615b83ba4dfdb47c12cae11b42d",
+      "template_sha256": "f99e96f4b919af1f4a6c91dba40b3371bc287615b83ba4dfdb47c12cae11b42d",
+      "bytes": 21884,
+      "executable": false
+    },
+    {
+      "path": ".local/share/icons/ayugram/chibi.png",
+      "source_sha256": "9dc6cc55ca69cbf6b6552e3ceb949ff271ed583e7bbb1842418759de0bb8689c",
+      "template_sha256": "9dc6cc55ca69cbf6b6552e3ceb949ff271ed583e7bbb1842418759de0bb8689c",
+      "bytes": 16022,
+      "executable": false
+    },
+    {
+      "path": ".local/share/icons/ayugram/chibi2.png",
+      "source_sha256": "6e63d7be17c48eaccd6b497d77669bdd30513bc9ff3f4ab7e2ee562991dfbb3e",
+      "template_sha256": "6e63d7be17c48eaccd6b497d77669bdd30513bc9ff3f4ab7e2ee562991dfbb3e",
+      "bytes": 4177,
+      "executable": false
+    },
+    {
+      "path": ".local/share/dbus-1/services/org.freedesktop.Notifications.service",
+      "source_sha256": "0568e58308634af5144c9dbaf5eada6519eb935a95f02e2706dd8e7d730b1c31",
+      "template_sha256": "83546befaeea499eaa485c865456274cd36fb80f0d24120ef22b5e4a92a1a10d",
+      "bytes": 115,
+      "executable": false
+    },
+    {
+      "path": ".config/autostart/lxqt-policykit-agent.desktop",
+      "source_sha256": "4a71354165f719b0b73af97b6fdab201c026f64e529f5dffc7c1d384e261a959",
+      "template_sha256": "0c7574dbbdc79b58d473ae2087c946a6d0c93f8045596d840d1f5e936c1c886c",
+      "bytes": 193,
+      "executable": false
+    },
+    {
+      "path": ".config/autostart/picom.desktop",
+      "source_sha256": "66c963a2e65c8247d200ffe9eb13f7ef4ca0e105e34c7f1a29eb3b35b16241b2",
+      "template_sha256": "66c963a2e65c8247d200ffe9eb13f7ef4ca0e105e34c7f1a29eb3b35b16241b2",
+      "bytes": 67,
+      "executable": false
+    },
+    {
+      "path": ".config/autostart/pano-scrobbler.desktop",
+      "source_sha256": "0c45fb9acc93e5fd091f2860af26e60fd77cd6e5f8844eace31dc06102c41d38",
+      "template_sha256": "0c45fb9acc93e5fd091f2860af26e60fd77cd6e5f8844eace31dc06102c41d38",
+      "bytes": 249,
+      "executable": false
+    }
+  ]
+}

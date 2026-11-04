@@ -1,0 +1,25 @@
+XScreenSaver.dialogTheme: borderlessblack
+XScreenSaver.dateFormat: %H:%M
+XScreenSaver.passwd.uname: False
+XScreenSaver.Dialog.headingFont: DejaVu Sans Mono Bold 16
+XScreenSaver.Dialog.bodyFont: DejaVu Sans 11
+XScreenSaver.Dialog.labelFont: DejaVu Sans 11
+XScreenSaver.Dialog.buttonFont: DejaVu Sans 10
+XScreenSaver.Dialog.dateFont: DejaVu Sans Mono 28
+XScreenSaver.borderlessblack.Dialog.foreground: #D0D0D0
+XScreenSaver.borderlessblack.Dialog.background: #242424
+XScreenSaver.borderlessblack.Dialog.text.foreground: #D0D0D0
+XScreenSaver.borderlessblack.Dialog.text.background: #343434
+XScreenSaver.borderlessblack.Dialog.button.foreground: #D0D0D0
+XScreenSaver.borderlessblack.Dialog.button.background: #454545
+XScreenSaver.borderlessblack.Dialog.error.foreground: #E0A3A3
+XScreenSaver.borderlessblack.Dialog.logo.background: #242424
+XScreenSaver.borderlessblack.Dialog.logo.width: 1
+XScreenSaver.borderlessblack.Dialog.logo.height: 1
+XScreenSaver.borderlessblack.Dialog.topShadowColor: #242424
+XScreenSaver.borderlessblack.Dialog.bottomShadowColor: #242424
+XScreenSaver.borderlessblack.Dialog.shadowWidth: 0
+XScreenSaver.borderlessblack.Dialog.borderWidth: 0
+XScreenSaver.borderlessblack.Dialog.thermometer.foreground: #858585
+XScreenSaver.borderlessblack.Dialog.thermometer.background: #343434
+XScreenSaver.borderlessblack.Dialog.thermometer.width: 2

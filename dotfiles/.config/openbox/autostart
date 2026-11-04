@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# Openbox session: keep themed application launchers ahead of system binaries.
+case ":$PATH:" in
+    *":$HOME/.local/bin:"*) ;;
+    *) export PATH="$HOME/.local/bin:$PATH" ;;
+esac
+mkdir -p "$HOME/.cache/rice"
+startup_log="$HOME/.cache/rice/startup.log"
+: > "$startup_log"
+
+# Set up the display before starting Polybar and screenshot tools.
+/usr/bin/python3 "$HOME/.config/rice/apply-display.py" >> "$startup_log" 2>&1
+
+# Apply the keyboard map now and again after XDG input services have started.
+setxkbmap -option "" -layout us,ru -option grp:alt_shift_toggle >> "$startup_log" 2>&1
+(sleep 3; setxkbmap -option "" -layout us,ru -option grp:alt_shift_toggle >> "$startup_log" 2>&1) &
+
+# Avoid duplicate compositor instances if autostart is invoked again.
+if ! pgrep -u "$(id -u)" -x picom >/dev/null; then
+    picom --backend xrender -b >> "$startup_log" 2>&1
+fi
+
+# Wait briefly for the session bus before starting services that require it.
+attempt=0
+until gdbus call --session --dest org.freedesktop.DBus --object-path /org/freedesktop/DBus --method org.freedesktop.DBus.ListNames >/dev/null 2>&1; do
+    attempt=$((attempt + 1))
+    [ "$attempt" -ge 50 ] && break
+    sleep 0.1
+done
+
+# Supply Happ's native menu in this session without a visible tray.
+/usr/bin/python3 "$HOME/.config/polybar/scripts/happ-tray-bridge.py" >> "$startup_log" 2>&1 &
+
+# Notifications are ready before applications begin sending them.
+"$HOME/.config/dunst/start.sh" >> "$startup_log" 2>&1
+
+# Clipboard history and secure screen locking.
+"$HOME/.config/polybar/start-clipboard.sh" >> "$startup_log" 2>&1
+"$HOME/.config/rice/start-locker.sh" >> "$startup_log" 2>&1
+
+
+# Hotkeys are handled by Openbox rc.xml; sxhkd must not duplicate them.
+"$HOME/.config/polybar/restart.sh" >> "$startup_log" 2>&1
+
+# Verify session services once the asynchronous starts have settled.
+(sleep 3; /usr/bin/python3 "$HOME/.config/polybar/scripts/startup-audit.py" >> "$startup_log" 2>&1) &
+
+# Отключать ускорение мыши, только если оно включено
+"$HOME/.local/bin/mouse-no-accel" --quiet >> "$startup_log" 2>&1

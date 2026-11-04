@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Яндекс Музыка
+Exec="/opt/Яндекс Музыка/yandexmusic" %U
+Terminal=false
+Type=Application
+Icon=__RICE_HOME__/.local/share/icons/yandexmusic.png
+StartupWMClass=YandexMusic
+Comment=Personal recommendations, mixes for any occasion and the latest musical releases
+MimeType=x-scheme-handler/yandexmusic;
+Categories=AudioVideo;Audio;

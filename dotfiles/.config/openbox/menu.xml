@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+  <menu id="root-menu" label="laptos">
+    <item label="Приложения"><action name="Execute"><command>rofi -show drun</command></action></item>
+    <item label="Терминал"><action name="Execute"><command>kitty</command></action></item>
+    <item label="Файлы"><action name="Execute"><command>__RICE_HOME__/.local/bin/pcmanfm-qt</command></action></item>
+    <separator/>
+    <item label="Заблокировать"><action name="Execute"><command>__RICE_HOME__/.config/rice/lock.sh</command></action></item>
+    <item label="Перечитать настройки"><action name="Reconfigure"/></item>
+    <item label="Выйти"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>

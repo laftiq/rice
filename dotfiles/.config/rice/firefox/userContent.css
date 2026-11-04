@@ -1,0 +1,22 @@
+/* Only Firefox start pages; website styles are left to each site. */
+@-moz-document url("about:home"), url("about:newtab") {
+  :root {
+    --newtab-background-color: #242424 !important;
+    --newtab-background-color-secondary: #343434 !important;
+    --newtab-text-primary-color: #d0d0d0 !important;
+    --newtab-text-secondary-color: #a0a0a0 !important;
+    --newtab-element-hover-color: #454545 !important;
+    --newtab-primary-action-background: #b8b8b8 !important;
+    --newtab-primary-action-color: #242424 !important;
+    --newtab-border-radius-medium: 0px !important;
+    --newtab-border-radius-large: 0px !important;
+  }
+  body { background: #242424 !important; color: #d0d0d0 !important;
+    font-family: "DejaVu Sans Mono", monospace !important; }
+  .search-wrapper .search-handoff-button, .top-site-outer .tile {
+    background: #343434 !important;
+    color: #d0d0d0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+}

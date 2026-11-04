@@ -1,0 +1,94 @@
+* {
+    bg:             #242424;
+    bg-alt:         #343434;
+    fg:             #d0d0d0;
+    fg-muted:       #858585;
+    selected:       #454545;
+
+    background-color: transparent;
+    text-color: @fg;
+    font: "DejaVu Sans Mono 11";
+}
+
+window {
+    width: 520px;
+    padding: 16px;
+    border: 0px;
+    border-color: #555555;
+    border-radius: 0px;
+    background-color: @bg;
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    padding: 10px;
+    background-color: @bg-alt;
+    border-radius: 0px;
+    children: [prompt, entry];
+}
+
+prompt {
+    text-color: @fg-muted;
+    margin: 0px 10px 0px 0px;
+}
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: @fg-muted;
+}
+
+listview {
+    lines: 7;
+    columns: 1;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+element {
+    padding: 9px;
+    border-radius: 0px;
+}
+
+element selected {
+    background-color: @selected;
+}
+
+element-text {
+    text-color: @fg;
+}
+
+element-icon {
+    size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+/* Explicit cursor for popup backgrounds and mouse grabs. */
+* { cursor: default; }
+window { cursor: default; }
+mainbox { cursor: default; }
+listview { cursor: default; }
+element { cursor: pointer; }
+element-text { cursor: pointer; }
+entry { cursor: text; }
+
+/* Match the storage menu: mark the focused row with a left stripe. */
+element normal.normal, element normal.active, element normal.urgent,
+element selected.normal, element selected.active, element selected.urgent {
+    background-color: transparent;
+    border: 0px 0px 0px 2px;
+    border-color: transparent;
+    border-radius: 0px;
+}
+element selected.normal, element selected.active, element selected.urgent {
+    border-color: #B8B8B8;
+}
+element-text, element-icon {
+    background-color: transparent;
+}
+element-text selected.normal, element-text selected.active, element-text selected.urgent {
+    background-color: transparent;
+    text-color: #D0D0D0;
+}

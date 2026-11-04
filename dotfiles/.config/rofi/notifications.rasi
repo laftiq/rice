@@ -1,0 +1,75 @@
+configuration {
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+* {
+    background-color: transparent;
+    text-color: #D0D0D0;
+    font: "DejaVu Sans Mono 10";
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+window {
+    width: 420px;
+    location: northeast;
+    anchor: northeast;
+    x-offset: -8px;
+    y-offset: 38px;
+    padding: 10px;
+    background-color: #242424;
+}
+mainbox { children: [textbox-heading, message, listview]; spacing: 8px; }
+textbox-heading { content: "Уведомления"; expand: false; text-color: #858585; }
+listview { lines: 5; spacing: 2px; fixed-height: false; scrollbar: true; }
+element { padding: 7px 6px; border: 0px 0px 0px 2px; border-color: transparent; background-color: transparent; }
+element selected { background-color: transparent; border-color: #B8B8B8; }
+element-text { markup: true; background-color: transparent; highlight: none; }
+element-text selected.normal, element-text selected.active, element-text selected.urgent { background-color: transparent; text-color: #D0D0D0; }
+element-icon { enabled: false; }
+inputbar { enabled: false; }
+
+/* Explicit cursor for popup backgrounds and mouse grabs. */
+* { cursor: default; }
+window { cursor: default; }
+mainbox { cursor: default; }
+listview { cursor: default; }
+element { cursor: pointer; }
+element-text { cursor: pointer; }
+entry { cursor: text; }
+
+message { padding: 0px 0px 6px; expand: false; }
+textbox { markup: true; expand: false; }
+scrollbar { width: 2px; handle-width: 2px; handle-color: #777777; }
+
+/* Selection changes only the marker, never text geometry. */
+element normal.normal, element normal.active, element normal.urgent,
+element selected.normal, element selected.active, element selected.urgent {
+    padding: 7px 6px;
+    margin: 0px;
+    border: 0px 0px 0px 2px;
+    spacing: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+element selected.normal, element selected.active, element selected.urgent {
+    border-color: #B8B8B8;
+}
+element-text, element-text normal.normal, element-text normal.active,
+element-text normal.urgent, element-text selected.normal,
+element-text selected.active, element-text selected.urgent {
+    font: "DejaVu Sans Mono 10";
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    vertical-align: 0.5;
+    background-color: transparent;
+    highlight: none;
+}
+
+/* End the popup at the scrollbar without an extra right gutter. */
+window { padding: 10px 0px 10px 10px; }
+listview { padding: 0px; margin: 0px; }
+scrollbar { padding: 0px; margin: 0px; border: 0px; }
+
+window { border: 0px; border-radius: 0px; }

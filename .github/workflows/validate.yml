@@ -1,0 +1,26 @@
+name: Validate rice snapshot
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate.py
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 install.py --dry-run --target-home /tmp/rice-preview --with-session --with-shell
+  build-locker-debian13:
+    runs-on: ubuntu-latest
+    container: debian:13
+    steps:
+      - name: Install build tools
+        run: |
+          apt-get update
+          apt-get install -y git ca-certificates build-essential meson ninja-build pkg-config libpam0g-dev libev-dev libcairo2-dev libx11-dev libxcb1-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev
+      - uses: actions/checkout@v4
+      - run: sh scripts/build-locker.sh
+      - run: .build/i3lock/i3lock --version

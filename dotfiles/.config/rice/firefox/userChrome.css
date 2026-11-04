@@ -1,0 +1,69 @@
+/* Laptos graphite: matches Polybar / Rofi. */
+:root {
+  --laptos-bg: #242424;
+  --laptos-panel: #343434;
+  --laptos-selected: #454545;
+  --laptos-fg: #d0d0d0;
+  --toolbar-bgcolor: #242424 !important;
+  --toolbar-color: #d0d0d0 !important;
+  --lwt-accent-color: #242424 !important;
+  --lwt-text-color: #d0d0d0 !important;
+  --toolbar-field-background-color: #343434 !important;
+  --toolbar-field-color: #d0d0d0 !important;
+  --toolbar-field-focus-background-color: #343434 !important;
+  --toolbar-field-background-color-focus: #343434 !important;
+  --toolbar-field-color-focus: #eeeeee !important;
+  --toolbar-field-focus-color: #eeeeee !important;
+  --toolbarbutton-border-radius: 0px !important;
+  --tab-border-radius: 0px !important;
+  --tab-min-height: 30px !important;
+  --arrowpanel-background: #242424 !important;
+  --arrowpanel-color: #d0d0d0 !important;
+  --arrowpanel-border-color: #555555 !important;
+  --arrowpanel-border-radius: 0px !important;
+  --panel-border-radius: 0px !important;
+  --arrowpanel-dimmed: #343434 !important;
+  --arrowpanel-dimmed-further: #454545 !important;
+}
+#navigator-toolbox {
+  font-family: "DejaVu Sans Mono", monospace !important;
+  font-size: 12px !important;
+  background: #242424 !important;
+  color: #d0d0d0 !important;
+  border-bottom: 1px solid #454545 !important;
+}
+#TabsToolbar, #nav-bar, #PersonalToolbar {
+  background: #242424 !important;
+  color: #d0d0d0 !important;
+  box-shadow: none !important;
+}
+.tab-background {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin-block: 3px !important;
+}
+.tabbrowser-tab[selected] .tab-background {
+  background: #454545 !important;
+  border-bottom: 2px solid #b8b8b8 !important;
+}
+.tabbrowser-tab:not([selected]):hover .tab-background {
+  background: #343434 !important;
+}
+.urlbar-background, #searchbar {
+  border-radius: 0 !important;
+  background: #343434 !important;
+  border-color: #555555 !important;
+  box-shadow: none !important;
+}
+#urlbar[focused] .urlbar-background {
+  border-color: #b8b8b8 !important;
+}
+.urlbarView-row-inner {
+  border-radius: 0 !important;
+}
+.urlbarView-row[selected] .urlbarView-row-inner {
+  background: #454545 !important;
+  color: #eeeeee !important;
+}
+#PersonalToolbar { font-size: 11px !important; }
+/* Keep focus indicators, window controls and private-mode indicators intact. */

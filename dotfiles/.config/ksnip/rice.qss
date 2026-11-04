@@ -1,0 +1,25 @@
+/* The charcoal rice palette; leave screenshot pixels and annotation colors intact. */
+QMainWindow, QDialog, QToolBar, QMenuBar, QDockWidget, QStatusBar {
+    background: #242424;
+    color: #D0D0D0;
+    font-family: "DejaVu Sans";
+    font-size: 12px;
+}
+QMenu, QMenuBar::item { background: #242424; color: #D0D0D0; }
+QMenu { border: 1px solid #454545; }
+QMenu::item { padding: 6px 20px 6px 8px; border-left: 2px solid transparent; }
+QMenu::item:selected { background: transparent; border-left: 2px solid #B8B8B8; }
+QMenu::item:disabled { color: #777777; }
+QMenuBar::item:selected { background: #454545; }
+QToolBar { border: 0; spacing: 3px; padding: 4px; }
+QToolButton { background: transparent; color: #D0D0D0; border: 1px solid transparent; padding: 4px; }
+QToolButton:hover, QToolButton:checked { background: #454545; border-color: #777777; }
+QPushButton { background: #343434; color: #D0D0D0; border: 1px solid #454545; padding: 5px 10px; }
+QPushButton:hover { background: #454545; }
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    background: #303030; color: #D0D0D0; border: 1px solid #454545; padding: 3px;
+    selection-background-color: #555555;
+}
+QTabBar::tab { background: #242424; color: #858585; padding: 7px 12px; border-bottom: 2px solid transparent; }
+QTabBar::tab:selected { color: #D0D0D0; border-bottom-color: #B8B8B8; }
+QToolTip { background: #343434; color: #D0D0D0; border: 1px solid #454545; padding: 4px; }

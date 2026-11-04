@@ -1,0 +1,25 @@
+# Меню приложений
+super + space
+    rofi -show drun
+
+# Терминал
+super + Return
+    kitty
+
+# Файловый менеджер
+super + p
+    pcmanfm-qt
+
+# Скриншот выделенной области
+super + shift + s
+    __RICE_HOME__/.local/bin/rice-screenshot
+
+# Снимки экрана (резервная конфигурация; активные клавиши обрабатывает Openbox)
+Print
+    __RICE_HOME__/.local/bin/rice-screenshot
+
+alt + Print
+    __RICE_HOME__/.local/bin/rice-screenshot --active
+
+shift + Print
+    __RICE_HOME__/.local/bin/rice-screenshot --fullscreen

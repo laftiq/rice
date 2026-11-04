@@ -1,0 +1,81 @@
+#!/usr/bin/python3
+"""Idempotently disable X11 mouse acceleration without changing sensitivity."""
+import argparse
+import os
+import re
+import shutil
+import subprocess
+import sys
+
+
+def run(*args):
+    return subprocess.run(args,check=True,text=True,capture_output=True,env=dict(os.environ,LC_ALL='C')).stdout
+
+
+def properties(text):
+    result={}
+    for line in text.splitlines():
+        match=re.match(r'\s*(.*?)\s+\(\d+\):\s*(.*)',line)
+        if match: result[match[1]]=match[2]
+    return result
+
+
+def profile(props):
+    key='libinput Accel Profile Enabled'
+    if key in props:
+        current=[int(value.strip()) for value in props[key].split(',')]
+        available=[int(value.strip()) for value in props.get('libinput Accel Profiles Available','').split(',') if value.strip()]
+        if len(current)>=2 and len(available)==len(current) and available[1]:
+            target=[0]*len(current); target[1]=1
+            return key,current,target
+    key='Device Accel Profile'
+    if key in props:
+        return key,[int(props[key])],[-1]
+    return None
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check',action='store_true',help='Report only; do not change properties')
+    parser.add_argument('--quiet',action='store_true')
+    args=parser.parse_args()
+    if not shutil.which('xinput'):
+        parser.exit(1,'Не найден xinput: sudo apt install xinput\n')
+    if os.environ.get('XDG_SESSION_TYPE')=='wayland':
+        parser.exit(1,'Этот скрипт предназначен для X11/Openbox, не для Wayland.\n')
+    devices=run('xinput','list','--short')
+    failures=0
+    for line in devices.splitlines():
+        match=re.search(r'id=(\d+)\s+\[slave\s+pointer',line)
+        if not match: continue
+        identifier=match[1]
+        try:
+            raw=run('xinput','list-props',identifier)
+            props=properties(raw)
+            # Leave touchpads, touchscreens and tablets unchanged.
+            if any(key.startswith(('libinput Tapping','libinput Tablet','libinput Calibration')) for key in props): continue
+            result=profile(props)
+            if result is None: continue
+            key,current,target=result
+            name=raw.splitlines()[0].removeprefix("Device '").removesuffix("':")
+            if current==target:
+                message='ускорение уже выключено, без изменений'
+            elif args.check:
+                message='ускорение включено'
+            else:
+                run('xinput','set-prop',identifier,key,*map(str,target))
+                actual=profile(properties(run('xinput','list-props',identifier)))
+                if actual is None or actual[1]!=target: raise ValueError('не удалось подтвердить настройку')
+                message='ускорение выключено'
+            if not args.quiet: print(f'{name}: {message}')
+        except (subprocess.CalledProcessError,ValueError) as error:
+            failures+=1
+            print(f'Устройство {identifier}: {getattr(error,"stderr",None) or error}',file=sys.stderr)
+    return bool(failures)
+
+
+if __name__=='__main__':
+    try:
+        sys.exit(main())
+    except subprocess.CalledProcessError as error:
+        sys.exit(error.stderr.strip() or 'Не удалось подключиться к X11')

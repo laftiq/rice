@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Laptos Rice
+Comment=Charcoal palette matching the Laptos Openbox rice
+[X-GNOME-Metatheme]
+GtkTheme=Laptos-Rice
+IconTheme=Papirus-Dark

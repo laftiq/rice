@@ -1,0 +1,4 @@
+#!/bin/sh
+# Explicit styling also works outside an LXQt desktop session.
+export QT_STYLE_OVERRIDE=Fusion
+exec /usr/bin/lxqt-policykit-agent -style Fusion -stylesheet "$HOME/.config/rice/policykit.qss" "$@"

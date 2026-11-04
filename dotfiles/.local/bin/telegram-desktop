@@ -1,0 +1,6 @@
+#!/bin/sh
+# Qt5 uses GTK3 for native file dialogs; match the existing rice palette.
+export QT_QPA_PLATFORMTHEME=gtk3
+export GTK_THEME=Laptos-Rice
+export QT_STYLE_OVERRIDE=Fusion
+exec /usr/bin/telegram-desktop "$@"

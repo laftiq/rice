@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PolicyKit authentication agent
+TryExec=__RICE_HOME__/.local/bin/lxqt-policykit-agent
+Exec=__RICE_HOME__/.local/bin/lxqt-policykit-agent
+X-LXQt-Module=true

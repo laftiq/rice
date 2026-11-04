@@ -1,0 +1,3 @@
+#!/bin/sh
+export QT_QPA_PLATFORMTHEME=lxqt
+exec /usr/bin/pcmanfm-qt --profile rice -style Fusion -stylesheet "$HOME/.config/rice/filemanager.qss" "$@"

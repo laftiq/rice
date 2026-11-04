@@ -1,0 +1,39 @@
+configuration {
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+* {
+    background-color: transparent;
+    text-color: #D0D0D0;
+    font: "DejaVu Sans Mono 10";
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+window {
+    width: 410px;
+    location: northeast;
+    anchor: northeast;
+    x-offset: -8px;
+    y-offset: 38px;
+    padding: 10px;
+    background-color: #242424;
+}
+mainbox { children: [textbox-heading, listview]; spacing: 6px; }
+textbox-heading { content: "STORAGE"; expand: false; text-color: #858585; }
+listview { lines: 7; spacing: 2px; fixed-height: false; scrollbar: false; }
+element { padding: 7px 6px; border: 0px 0px 0px 2px; border-color: transparent; background-color: transparent; }
+element selected { background-color: transparent; border-color: #B8B8B8; }
+element-text { markup: true; background-color: transparent; highlight: none; }
+element-text selected.normal, element-text selected.active, element-text selected.urgent { background-color: transparent; text-color: #D0D0D0; }
+element-icon { enabled: false; }
+inputbar { enabled: false; }
+
+/* Explicit cursor for popup backgrounds and mouse grabs. */
+* { cursor: default; }
+window { cursor: default; }
+mainbox { cursor: default; }
+listview { cursor: default; }
+element { cursor: pointer; }
+element-text { cursor: pointer; }
+entry { cursor: text; }

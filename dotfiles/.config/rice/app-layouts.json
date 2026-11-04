@@ -1,0 +1,10 @@
+{
+  "force_on_focus": {
+    "kitty": "us",
+    "qterminal": "us",
+    "xterm": "us",
+    "alacritty": "us",
+    "org.wezfurlong.wezterm": "us"
+  },
+  "remember_other_apps": true
+}

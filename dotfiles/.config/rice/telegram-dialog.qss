@@ -1,0 +1,59 @@
+/* Scoped to file dialogs: match the existing rice palette. */
+QFileDialog, QFileDialog QWidget {
+    background-color: #242424;
+    color: #D0D0D0;
+    font-family: "DejaVu Sans";
+    font-size: 13px;
+}
+QFileDialog QAbstractItemView {
+    background-color: #202020;
+    alternate-background-color: #242424;
+    selection-background-color: #454545;
+    selection-color: #FFFFFF;
+    border: 1px solid #3C3C3C;
+    outline: none;
+}
+QFileDialog QTreeView::item, QFileDialog QListView::item {
+    padding: 4px 3px;
+    min-height: 22px;
+}
+QFileDialog QAbstractItemView::item:hover { background: #303030; }
+QFileDialog QAbstractItemView::item:selected { background: #454545; color: #FFFFFF; }
+QFileDialog QHeaderView::section {
+    background: #282828;
+    color: #858585;
+    border: none;
+    border-bottom: 1px solid #3C3C3C;
+    padding: 6px;
+}
+QFileDialog QLineEdit, QFileDialog QComboBox {
+    background: #202020;
+    border: 1px solid #3C3C3C;
+    border-radius: 3px;
+    padding: 5px 7px;
+    selection-background-color: #555555;
+    selection-color: #FFFFFF;
+}
+QFileDialog QLineEdit:focus, QFileDialog QComboBox:focus { border-color: #777777; }
+QFileDialog QComboBox QAbstractItemView { background: #282828; }
+QFileDialog QPushButton {
+    background: #343434;
+    border: 1px solid #454545;
+    border-radius: 3px;
+    padding: 6px 14px;
+    min-height: 20px;
+}
+QFileDialog QPushButton:hover { background: #454545; }
+QFileDialog QPushButton:pressed { background: #505050; }
+QFileDialog QPushButton:default { border-color: #777777; }
+QFileDialog QPushButton:disabled { background: #282828; color: #777777; border-color: #343434; }
+QFileDialog QToolButton { background: transparent; border: none; padding: 5px; border-radius: 3px; }
+QFileDialog QToolButton:hover, QFileDialog QToolButton:checked { background: #454545; }
+QFileDialog QToolButton:disabled { color: #777777; }
+QFileDialog QScrollBar:vertical { background: #242424; width: 8px; border: none; }
+QFileDialog QScrollBar:horizontal { background: #242424; height: 8px; border: none; }
+QFileDialog QScrollBar::handle { background: #555555; border-radius: 3px; min-height: 24px; min-width: 24px; }
+QFileDialog QScrollBar::add-line, QFileDialog QScrollBar::sub-line { width: 0; height: 0; }
+QFileDialog QScrollBar::add-page, QFileDialog QScrollBar::sub-page { background: none; }
+QFileDialog QSplitter::handle { background: #303030; }
+QFileDialog QFrame { border: none; }

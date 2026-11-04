@@ -1,0 +1,114 @@
+configuration {
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+* {
+    background-color: transparent;
+    text-color: #D0D0D0;
+    font: "DejaVu Sans Mono 10";
+}
+window {
+    width: 340px;
+    location: northeast;
+    anchor: northeast;
+    x-offset: -8px;
+    y-offset: 38px;
+    padding: 10px;
+    border: 1px;
+    border-color: #454545;
+    border-radius: 0px;
+    background-color: #242424;
+}
+mainbox {
+    spacing: 6px;
+    children: [textbox-heading, message, listview];
+}
+textbox-heading {
+    content: "MEMORY  /  OVERVIEW";
+    font: "DejaVu Sans Mono Bold 10";
+    text-color: #B8B8B8;
+}
+message {
+    padding: 0px 0px 6px;
+    border: 0px 0px 1px;
+    border-color: #3C3C3C;
+}
+textbox { markup: true; }
+textbox-columns {
+    content: "TOP PROCESSES                         RSS";
+    font: "DejaVu Sans Mono 8";
+    text-color: #777777;
+}
+listview {
+    lines: 8;
+    columns: 1;
+    spacing: 0px;
+    scrollbar: false;
+    fixed-height: false;
+}
+element { padding: 5px 4px; border-radius: 0px; }
+element selected { background-color: #343434; }
+element-text { markup: true; vertical-align: 0.5; }
+element-icon { enabled: false; }
+textbox-footer {
+    content: "RSS · физическая память процесса    ESC закрыть";
+    font: "DejaVu Sans Mono 8";
+    text-color: #777777;
+    padding: 10px 0px 0px;
+    border: 1px 0px 0px;
+    border-color: #3C3C3C;
+}
+inputbar { enabled: false; }
+
+listview { padding: 0px; margin: 0px; }
+element-text { padding: 0px; margin: 0px; }
+
+/* Keep the header and summary at their natural text height. */
+mainbox { spacing: 4px; padding: 0px; margin: 0px; }
+textbox-heading {
+    expand: false;
+    padding: 0px;
+    margin: 0px;
+}
+message {
+    expand: false;
+    padding: 0px 0px 4px;
+    margin: 0px;
+}
+textbox {
+    expand: false;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: 0.0;
+}
+
+window { border: 0px; }
+message { border: 0px; }
+
+/* Explicit cursor for popup backgrounds and mouse grabs. */
+* { cursor: default; }
+window { cursor: default; }
+mainbox { cursor: default; }
+listview { cursor: default; }
+element { cursor: pointer; }
+element-text { cursor: pointer; }
+entry { cursor: text; }
+
+/* Match the storage menu: mark the focused row with a left stripe. */
+element normal.normal, element normal.active, element normal.urgent,
+element selected.normal, element selected.active, element selected.urgent {
+    background-color: transparent;
+    border: 0px 0px 0px 2px;
+    border-color: transparent;
+    border-radius: 0px;
+}
+element selected.normal, element selected.active, element selected.urgent {
+    border-color: #B8B8B8;
+}
+element-text, element-icon {
+    background-color: transparent;
+}
+element-text selected.normal, element-text selected.active, element-text selected.urgent {
+    background-color: transparent;
+    text-color: #D0D0D0;
+}

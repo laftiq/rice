@@ -1,0 +1,23 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@define-color theme_bg_color #242424;
+@define-color theme_fg_color #d0d0d0;
+@define-color theme_base_color #202020;
+@define-color theme_text_color #d0d0d0;
+@define-color theme_selected_bg_color #454545;
+@define-color theme_selected_fg_color #ffffff;
+@define-color borders #3c3c3c;
+window, dialog, filechooser, .background { background-color: #242424; color: #d0d0d0; }
+filechooser { font-family: "DejaVu Sans"; font-size: 10pt; }
+headerbar { background: #282828; box-shadow: none; border-color: #3c3c3c; }
+.sidebar, .sidebar list, placesview, placessidebar { background: #242424; color: #d0d0d0; }
+view, treeview, list { background-color: #202020; color: #d0d0d0; }
+row:selected, treeview:selected, .view:selected { background-color: #454545; color: #ffffff; }
+button { background-image: none; background-color: #343434; color: #d0d0d0; border: 1px solid #454545; box-shadow: none; text-shadow: none; border-radius: 3px; }
+button:hover { background-color: #454545; }
+button:disabled { background-color: #282828; color: #777777; }
+button.suggested-action { background-color: #454545; color: #ffffff; border-color: #777777; }
+entry, combobox { background-color: #202020; color: #d0d0d0; border-color: #3c3c3c; box-shadow: none; }
+entry:focus { border-color: #777777; }
+selection { background-color: #454545; color: #ffffff; }
+scrollbar { background-color: #242424; }
+scrollbar slider { background-color: #555555; border: none; }
