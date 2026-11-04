@@ -1,3 +1,5 @@
+/home/laptos/Videos/edited-with-audio.mp4
+
 # laptos-rice
 
 Графитовый Openbox/X11-райс с Debian 13: Polybar, Rofi, Kitty, Dunst, собственные меню и виджеты, скриншотер, буфер обмена, переключатель окон и изменённый i3lock. Снимок от **4 ноября 2026**.
