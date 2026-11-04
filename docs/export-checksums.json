@@ -46,8 +46,8 @@
   },
   {
     "path": "docs/VALIDATION.md",
-    "sha256": "3f954a7a6c592938247ecd1a9f77c5a86e9fd66374d9636b744885ca5e017b1e",
-    "size": 3568
+    "sha256": "154221c4004422b24feb24b1b27b4fcbd0fda37576ef1b09e2932f6351c7942f",
+    "size": 3784
   },
   {
     "path": "docs/debian13-tested-versions.tsv",
